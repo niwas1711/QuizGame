@@ -1,0 +1,7 @@
+# App Manifest
+applications:
+- name: backendapiforgame
+  memory: 1024M
+  buildpack: java_buildpack
+  routes:
+    - route: backendapiforgamedev1.mybluemix.net
